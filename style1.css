@@ -1,0 +1,89 @@
+body {
+    font-family: cursive; /* Семейство шрифтов */
+    font-size: 17px; /* Размер основного шрифта в <p></p>  */
+    background-color: #ffffff; /* Цвет фона веб-страницы */
+    color: #464040; /* Цвет основного текста */ 
+}
+h1 {
+    color: #51ff00; /* Цвет заголовка */
+    font-size: 27px; /* Размер шрифта в пунктах */
+    font-family: Arial, Helvetica, sans-serif; /* Семейство шрифтов */
+}
+h2 {
+    color: #0077ff; /* Цвет заголовка */
+    font-size: 23px; /* Размер шрифта в пунктах */
+    font-family: Arial, Helvetica, sans-serif; /* Семейство шрифтов */
+}
+h3 {
+    color: #464040; /* Цвет заголовка */
+    font-size: 23px; /* Размер шрифта в пунктах */
+    font-family: Arial, Helvetica, sans-serif; /* Семейство шрифтов */
+}
+@keyframes color-change {
+    0% {
+      color: rgb(132, 0, 255);
+    }
+  
+    50% {
+      color: red;
+    }
+  
+    100% {
+      color: blue;
+    }
+}
+
+h1:hover {
+    animation: color-change 3s infinite;
+}
+@keyframes color-change {
+    0% {
+      color: #51ff00;
+    }
+  
+    50% {
+      color: red;
+    }
+  
+    100% {
+      color: blue;
+    }
+}
+
+h2:hover {
+    animation: color-change 3s infinite;
+}
+@keyframes color-change {
+    0% {
+      color: #0077ff;
+    }
+  
+    50% {
+      color: red;
+    }
+  
+    100% {
+      color: blue;
+    }
+}
+
+a:hover {
+    animation: color-change 3s infinite;
+}
+@keyframes color-change {
+    0% {
+      color: #0077ff;
+    }
+  
+    50% {
+      color: red;
+    }
+  
+    100% {
+      color: blue;
+    }
+}
+
+h3 {
+    animation: color-change 3s infinite;
+}
